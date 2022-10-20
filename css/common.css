@@ -1,0 +1,224 @@
+:root {
+  --font-noto-sans-jp: 'Noto Sans JP';
+  --font-lato: Lato;
+  --font-roboto: Roboto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  transition: background 0.5s cubic-bezier(0.4, 0.4, 0, 1);
+  font-family: var(--font-noto-sans-jp);
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: inherit;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: top;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::after,
+blockquote::before,
+q::after,
+q::before {
+  content: "";
+  content: none;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.tac {
+  text-align: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+.acc {
+  align-content: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+a, abbr, address, article, aside, audio, b, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, p, pre, q, samp, section, select, small, span, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  transition: .3s cubic-bezier(.4,.4,0,1);
+  color: #333;
+  word-spacing: 1px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.container {
+  max-width: 1030px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.fixed {
+  z-index: 2;
+}
+
+@font-face{font-family:"Material Icons";font-style:normal;font-weight:400;src:url(https://storage.googleapis.com/production-os-assets/assets/material-icons/1629704621943/MaterialIcons-Regular.eot);src:local("Material Icons"),local("MaterialIcons-Regular"),url(https://storage.googleapis.com/production-os-assets/assets/material-icons/1629704621943/MaterialIcons-Regular.woff2) format("woff2"),url(https://storage.googleapis.com/production-os-assets/assets/material-icons/1629704621943/MaterialIcons-Regular.woff) format("woff"),url(https://storage.googleapis.com/production-os-assets/assets/material-icons/1629704621943/MaterialIcons-Regular.ttf) format("truetype")}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (min-width: 768px) {
+  .sp-show {
+    display: none !important;
+  }
+  .pc-show {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pc-show {
+    display: none !important;
+  }
+  .sp-show {
+    display: block !important;
+  }
+}

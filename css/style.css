@@ -1665,13 +1665,13 @@
   width: 500px;
   max-width: 100%;
 }
-.appear{
+/* .appear{
   opacity: 0;
   transform: translate(0px, 20px);
   transition-delay: 300ms;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
-}
+} */
 .contact-button >p{
   color: #FFFFFF;
   font-family: var(--s-font-1198c85e);

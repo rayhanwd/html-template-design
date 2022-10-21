@@ -159,7 +159,19 @@ q::before {
 .jcc {
   justify-content: center;
 }
-
+.row {
+  max-width: 100%;
+  z-index: 0;
+  pointer-events: all;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex: none;
+}
 a, abbr, address, article, aside, audio, b, blockquote, body, button, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, main, mark, menu, nav, object, ol, p, pre, q, samp, section, select, small, span, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, var, video {
   margin: 0;
   padding: 0;

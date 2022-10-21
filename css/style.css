@@ -943,20 +943,6 @@
   }
 }
 
-.row {
-  max-width: 100%;
-  z-index: 0;
-  pointer-events: all;
-  flex-wrap: nowrap;
-  -webkit-overflow-scrolling: touch;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  flex: none;
-}
-
 .business_worried {
   align-content: center;
   align-items: center;
